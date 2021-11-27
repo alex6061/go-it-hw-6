@@ -421,29 +421,56 @@
 
 
 <div class="backdrop is-hidden" data-modal>
-    <div class="modal">
 
-        <button  data-modal-close class="close_btn" >
+
+    <div class="modal">
+        <button data-modal-close class="close_btn" >
             <svg class="close_btn_svg" width="18" height="18">
                 <use href="img/icons/symbol-defs.svg#icon-close-black-18dp-2-1"></use>
             </svg>
         </button>
-
         <form class="modal_form js-speaker-form" action="">
 
-            <h5 class="modal_main is-hidden">Оставьте свои данные, мы вам перезвоним</h5>
+            <p class="modal_main">Оставьте свои данные, мы вам перезвоним</p>
 
             <div class="form">
                 <label for="modal_name">Имя</label>
-                <input id="modal_name" type="text" placeholder="  " autofocus>
+                <input class="modal_name" id="modal_name" type="text" placeholder="  " autofocus>
                 <svg class="modal_svg" width="18" height="18">
                     <use  href="img/icons/symbol-defs.svg#icon-person-black-18dp-1-1"></use>
                 </svg>
             </div>
 
+<!--            <ul>-->
+<!--                <li>-->
+<!--                    <label for="modal_name">Имя-->
+<!--                        <input class="modal_name" id="modal_name" type="text" placeholder="  " autofocus>-->
+<!--                        <svg class="modal_svg" width="18" height="18">-->
+<!--                            <use  href="img/icons/symbol-defs.svg#icon-person-black-18dp-1-1"></use>-->
+<!--                        </svg>-->
+<!--                    </label>-->
+<!--                </li>-->
+<!--                <li>-->
+<!--                    <label for="modal_tel">Телефон-->
+<!--                        <input class="modal_tel" id="modal_tel" type="tel">-->
+<!--                        <svg class="modal_svg" width="18" height="18">-->
+<!--                            <use href="img/icons/symbol-defs.svg#icon-phone-black-18dp-1"></use>-->
+<!--                        </svg>-->
+<!--                    </label>-->
+<!--                </li>-->
+<!--                <li>-->
+<!--                    <label for="modal_mail">Почта-->
+<!--                        <input id="modal_mail" type="email">-->
+<!--                        <svg class="modal_svg" width="18" height="18">-->
+<!--                            <use href="img/icons/symbol-defs.svg#icon-email-black-18dp-1"></use>-->
+<!--                        </svg>-->
+<!--                    </label>-->
+<!--                </li>-->
+<!--            </ul>-->
+
             <div class="form">
                 <label for="modal_tel">Телефон</label>
-                <input id="modal_tel" type="tel">
+                <input class="modal_tel" id="modal_tel" type="tel">
                 <svg class="modal_svg" width="18" height="18">
                     <use href="img/icons/symbol-defs.svg#icon-phone-black-18dp-1"></use>
                 </svg>
@@ -470,6 +497,7 @@
             </div>
 
             <button class="form_button" type="submit">Отправить</button>
+
         </form>
     </div>
 </div>

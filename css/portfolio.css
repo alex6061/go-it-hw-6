@@ -84,7 +84,6 @@ nav {
 .header_nav {
     padding: 25px 0 25px;
     display: flex;
-    /*justify-content: space-between;*/
 }
 
 
@@ -109,7 +108,6 @@ nav {
     color: #2196F3;
     outline: none;
 }
-
 
 .portfolio_link:after {
     position: absolute;
@@ -257,7 +255,7 @@ main {
 
 }
 
-.box:hover .overlay {
+.card_link:hover .overlay {
     transform: translateY(0);
 }
 
