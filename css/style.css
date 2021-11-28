@@ -986,6 +986,8 @@ label {
     outline: none;
 }
 
+
+
 .checkbox_info::before {
     content: '';
     width: 16px;
@@ -1005,6 +1007,7 @@ label {
 }
 
 .checkbox:checked + .checkbox_info {
+
     background-image: url("/img/icons/icon_check.svg");
     background-color: #1d70af;
     background-repeat: no-repeat;
@@ -1024,6 +1027,12 @@ label {
     color: #188CE8;
 }
 
+
+
+
+.check-box-svg {
+    border: 2px solid red;
+}
 
 .form_button {
     position: relative;
