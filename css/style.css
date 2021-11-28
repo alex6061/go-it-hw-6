@@ -1008,14 +1008,6 @@ label {
 
 
 
-/*.checkbox:checked {*/
-/*    background-image: url("../img/icons/icon_check.svg");*/
-/*    width: 11px;*/
-/*    height: 9px;*/
-/*    background-origin: border-box;*/
-/*    ba*/
-/*}*/
-
 .checkbox:checked + .checkbox_info {
 
     background-image: url("../img/icons/icon_check.svg");
@@ -1036,9 +1028,6 @@ label {
     letter-spacing: 0.03em;
     color: #188CE8;
 }
-
-
-
 
 .check-box-svg {
     border: 2px solid red;

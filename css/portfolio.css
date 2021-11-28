@@ -259,6 +259,10 @@ main {
     transform: translateY(0);
 }
 
+.card_link:focus .overlay {
+    transform: translateY(0);
+}
+
 .overlay {
     position: absolute;
     bottom: 0;
