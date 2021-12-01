@@ -606,7 +606,7 @@ address li a{
 }
 
 .footer_name {
-    padding-bottom: 20px;
+    margin-bottom: 20px;
     font-family: 'Roboto',Arial,sans-serif;
     font-weight: bold;
     font-size: 14px;
@@ -673,7 +673,6 @@ address li a{
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
     margin-right: 10px;
-    padding-left: 16px;
     color: rgba(255, 255, 255, 0.6);
     font-family: Roboto,Arial,sans-serif;
 }
